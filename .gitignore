@@ -1,0 +1,31 @@
+# Local Terraform directories (if any)
+**/.terraform/*
+
+# Terraform state files
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+# Sensitive variable files
+**/*.tfvars
+**/*.tfvars.json
+
+# Crash log files
+**/crash.log
+**/crash.*.log
+
+# Private keys (your EC2 key)
+**/intern-keypair.pem
+**/*.pem
+**/*.key
+**/*.crt
+
+# Plan files
+**/*.plan
+
+# CLI config
+**/.terraformrc
+**/terraform.rc
+
+# OS junk
+**/.DS_Store
+**/Thumbs.db
