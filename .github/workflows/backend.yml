@@ -30,5 +30,4 @@ jobs:
               cd backend
               git pull origin main
             fi
-            cd backend
             php artisan migrate
