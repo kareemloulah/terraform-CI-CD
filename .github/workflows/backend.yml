@@ -24,6 +24,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
+            git clone https://github.com/laravel/laravel.git backend
             cd backend
             echo "Building back end"
             php artisan migrate
