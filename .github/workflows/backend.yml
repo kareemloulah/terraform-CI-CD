@@ -24,8 +24,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            mkdir -p /var/www
-            cd /var/www
             if [ ! -d "backend" ]; then
               git clone https://github.com/laravel/laravel.git backend
             else
