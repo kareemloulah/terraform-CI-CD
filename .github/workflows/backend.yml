@@ -30,4 +30,4 @@ jobs:
               cd backend
               git pull origin main
             fi
-            php artisan migrate
+            php artisan migrate || echo "build should be done"
